@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List should render correctly 1`] = `
+<div
+  className="list-data"
+>
+  <List
+    bordered={true}
+    dataSource={Array []}
+    renderItem={[Function]}
+  />
+  <Modal
+    confirmLoading={false}
+    footer={null}
+    okType="primary"
+    onCancel={[Function]}
+    title="undefined (undefined)"
+    visible={false}
+    width={520}
+  >
+    <img
+      alt="poster"
+      height={500}
+    />
+  </Modal>
+</div>
+`;
+
+exports[`List should render with loading 1`] = `
+<div
+  className="list-data"
+>
+  <List
+    bordered={true}
+    dataSource={Array []}
+    renderItem={[Function]}
+  />
+  <div
+    className="loading"
+  >
+    <Spin
+      size="default"
+      spinning={true}
+      wrapperClassName=""
+    />
+  </div>
+  <Modal
+    confirmLoading={false}
+    footer={null}
+    okType="primary"
+    onCancel={[Function]}
+    title="undefined (undefined)"
+    visible={false}
+    width={520}
+  >
+    <img
+      alt="poster"
+      height={500}
+    />
+  </Modal>
+</div>
+`;

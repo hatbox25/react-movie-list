@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage Container Snap Test render() renders the component 1`] = `
+<Home
+  getMovies={[Function]}
+  getSuggestion={[Function]}
+  hasMore={true}
+  loading={false}
+  movies={
+    Array [
+      Object {
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "Title": "Batman Begins",
+        "Type": "movie",
+        "Year": "2005",
+        "imdbID": "tt0372784",
+      },
+      Object {
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYWRkMGNjYmQtMTJlMi00ODgyLWIyZGEtOTZkY2FlZWI3NzIwXkEyXkFqcGdeQXVyNDEyNjEzOTg@._V1_SX300.jpg",
+        "Title": "Batman Begins",
+        "Type": "game",
+        "Year": "2005",
+        "imdbID": "tt0450392",
+      },
+      Object {
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYTc0MjQ1MTctZDNlMy00NTZjLTg1MjMtN2NkMGI2ZDAwYjg3XkEyXkFqcGdeQXVyMTY4MjQ0NzU@._V1_SX300.jpg",
+        "Title": "Batman: The Journey Begins",
+        "Type": "movie",
+        "Year": "2005",
+        "imdbID": "tt0485593",
+      },
+      Object {
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNzRlMzBjYjItMmI0YS00MjJiLThiZmUtNGFkMWRkNzAwNjQxXkEyXkFqcGdeQXVyMTY4MjQ0NzU@._V1_SX300.jpg",
+        "Title": "Batman Begins: Path to Discovery",
+        "Type": "movie",
+        "Year": "2005",
+        "imdbID": "tt0485689",
+      },
+      Object {
+        "Poster": "N/A",
+        "Title": "Batman Begins: Behind the Mask",
+        "Type": "movie",
+        "Year": "2005",
+        "imdbID": "tt1074939",
+      },
+      Object {
+        "Poster": "https://m.media-amazon.com/images/M/MV5BY2Y2N2EzM2YtZjdhNC00MTYwLWJiNDgtMDVlZDZjMDRlMDY1XkEyXkFqcGdeQXVyMTY4MjQ0NzU@._V1_SX300.jpg",
+        "Title": "Batman Begins: Reflections on Writing",
+        "Type": "movie",
+        "Year": "2005",
+        "imdbID": "tt6010256",
+      },
+      Object {
+        "Poster": "N/A",
+        "Title": "Batman Begins Stunts",
+        "Type": "movie",
+        "Year": "2005",
+        "imdbID": "tt6010270",
+      },
+      Object {
+        "Poster": "N/A",
+        "Title": "Terrible Batman Begins Remake",
+        "Type": "movie",
+        "Year": "2007",
+        "imdbID": "tt11723578",
+      },
+    ]
+  }
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  suggestion={
+    Array [
+      Object {
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "Title": "Batman Begins",
+        "Type": "movie",
+        "Year": "2005",
+        "imdbID": "tt0372784",
+      },
+      Object {
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYWRkMGNjYmQtMTJlMi00ODgyLWIyZGEtOTZkY2FlZWI3NzIwXkEyXkFqcGdeQXVyNDEyNjEzOTg@._V1_SX300.jpg",
+        "Title": "Batman Begins",
+        "Type": "game",
+        "Year": "2005",
+        "imdbID": "tt0450392",
+      },
+      Object {
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYTc0MjQ1MTctZDNlMy00NTZjLTg1MjMtN2NkMGI2ZDAwYjg3XkEyXkFqcGdeQXVyMTY4MjQ0NzU@._V1_SX300.jpg",
+        "Title": "Batman: The Journey Begins",
+        "Type": "movie",
+        "Year": "2005",
+        "imdbID": "tt0485593",
+      },
+      Object {
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNzRlMzBjYjItMmI0YS00MjJiLThiZmUtNGFkMWRkNzAwNjQxXkEyXkFqcGdeQXVyMTY4MjQ0NzU@._V1_SX300.jpg",
+        "Title": "Batman Begins: Path to Discovery",
+        "Type": "movie",
+        "Year": "2005",
+        "imdbID": "tt0485689",
+      },
+      Object {
+        "Poster": "N/A",
+        "Title": "Batman Begins: Behind the Mask",
+        "Type": "movie",
+        "Year": "2005",
+        "imdbID": "tt1074939",
+      },
+      Object {
+        "Poster": "https://m.media-amazon.com/images/M/MV5BY2Y2N2EzM2YtZjdhNC00MTYwLWJiNDgtMDVlZDZjMDRlMDY1XkEyXkFqcGdeQXVyMTY4MjQ0NzU@._V1_SX300.jpg",
+        "Title": "Batman Begins: Reflections on Writing",
+        "Type": "movie",
+        "Year": "2005",
+        "imdbID": "tt6010256",
+      },
+      Object {
+        "Poster": "N/A",
+        "Title": "Batman Begins Stunts",
+        "Type": "movie",
+        "Year": "2005",
+        "imdbID": "tt6010270",
+      },
+      Object {
+        "Poster": "N/A",
+        "Title": "Terrible Batman Begins Remake",
+        "Type": "movie",
+        "Year": "2007",
+        "imdbID": "tt11723578",
+      },
+    ]
+  }
+/>
+`;

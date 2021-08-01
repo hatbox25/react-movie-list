@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem should render correctly 1`] = `
+<Item
+  style={
+    Object {
+      "borderBottomColor": "#d4d4d4",
+      "flexDirection": "column",
+    }
+  }
+>
+  <div
+    onClick={[Function]}
+  >
+    <img
+      alt="poster-list"
+      height={200}
+      src=""
+    />
+  </div>
+  <Text>
+     - ()
+  </Text>
+</Item>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Searchbar should render correctly 1`] = `
+<div
+  className="searchbar"
+>
+  <ForwardRef(AutoComplete)
+    onChange={[Function]}
+    onSearch={[Function]}
+    onSelect={[Function]}
+    options={Array []}
+    value=""
+  >
+    <Search
+      enterButton={true}
+      placeholder="Search movie... ex: Batman"
+      size="large"
+    />
+  </ForwardRef(AutoComplete)>
+</div>
+`;
